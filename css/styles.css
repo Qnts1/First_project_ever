@@ -1,0 +1,43 @@
+.navbar-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.post-content {
+    display: flex;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+}
+
+.small-pictures {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.gallery .small-pictures img {
+    height: 90px;
+}
+
+.pictures{
+display: flex;
+flex-flow: wrap;
+}
+
+.pictures img{
+    height: 240px;
+    width: 400px;
+    margin: 10px;
+}
+
